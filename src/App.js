@@ -10,7 +10,7 @@ import Buy from './components/Buy';
 import Referals from './components/Referals';
 import Ecosystem from './components/Ecosystem';
 import About from './components/About';
-// import Navbar from './components/Navbar';
+import Error from './components/Error';
 
 function App() {
   return (
@@ -29,6 +29,8 @@ function App() {
         <Route path='/referals' element={<Referals/>}></Route>
         <Route path='/ecosystem' element={<Ecosystem/>}></Route>
         <Route path='/about' element={<About/>}></Route>
+
+        <Route path='*' element={<Error/>}/>
 
 
 
