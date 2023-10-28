@@ -6,7 +6,7 @@ const Ecosystem = () => {
     <>
     <Navbar/>
     <div>
-      i am ecosystem page
+      Ecosystem Page Comming Soon....
     </div>
     </>
   )

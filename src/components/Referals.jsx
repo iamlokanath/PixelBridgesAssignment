@@ -6,7 +6,7 @@ const Referals = () => {
     <>
     <Navbar/>
     <div>
-        i am Referals page
+       Referal  Page Comming Soon....
     </div>
     </>
   )

@@ -6,7 +6,7 @@ const About = () => {
     <>
     <Navbar/>
     <div>
-      i am About page
+     About Us Page Comming Soon....
     </div>
     </>
   )

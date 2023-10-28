@@ -6,7 +6,7 @@ const Earn = () => {
     <>
     <Navbar/>
     <div>
-      i am Earn page
+      Earn page Comming Soon....
     </div>
     </>
   )

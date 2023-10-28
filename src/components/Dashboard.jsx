@@ -6,7 +6,7 @@ const Dashboard = () => {
     <>
     <Navbar/>
     <div>
-      i am dashboard page
+      Dashboard page Comming Soon....
     </div>
     </>
   )

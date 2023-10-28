@@ -6,7 +6,7 @@ const Buy = () => {
     <>
     <Navbar/>
     <div>
-        i am Buy page
+        Buy page Comming Soon....
     </div>
     </>
   )

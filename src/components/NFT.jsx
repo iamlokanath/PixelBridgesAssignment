@@ -6,7 +6,7 @@ const NFT = () => {
     <>
     <Navbar/>
     <div>
-      i am NFT page
+     NFT Page Comming Soon....
     </div>
     </>
   )
