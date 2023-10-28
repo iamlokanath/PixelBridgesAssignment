@@ -1,0 +1,93 @@
+.home{
+    /* margin-top: 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+    color: white;
+    border-top: 1px solid #4d4d4e;
+}
+.home-container{
+    margin-top: 3rem;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 3rem;
+}
+.home-head{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.home-heading{
+    font-size: 3.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.home-heading-para{
+    
+    font-family: "Relative",sans-serif;
+    letter-spacing: .7px;
+    color: #cecece;
+    font-size: 1.3rem;
+}
+.home-button button{
+    background-color: #3eb489;
+    border-radius: 4px;
+    border: 1px solid #3eb489;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.home-card{
+    display: flex;
+    gap: 40px;
+    /* flex-direction: column; */
+}
+.home-card1{
+    display: flex;
+    border: 1px solid;
+    box-shadow: 0 0.7rem 0.8rem rgba(0,0,0,.2);
+    border: 1px solid hsla(0,0%,100%,.0784313725490196);
+    width: 350px;
+    height: 120px;
+    justify-content: left;
+    align-items: center;
+}
+.home-card1-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 2rem;
+}
+
+.home-card1-text-first{
+    color: #cecece;
+}
+.home-card1-text-second{
+    
+    font-family: "RelativeNumber";
+    color: #fff;
+    
+    font-size: 2rem;
+    letter-spacing: 0;
+}
+
+
+
+
+@media only screen and (max-width: 1050px) {
+    .home-card{
+        display: flex;
+        flex-direction: column;
+    }
+}
