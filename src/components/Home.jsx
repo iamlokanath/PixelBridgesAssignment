@@ -5,6 +5,7 @@ import './css/Home.css'
 import Trade from './Image/ic_trading.2c53815a.svg';
 import Interest from './Image/ic_stats.f0a18011.svg';
 import User from './Image/ic_totaluser.ae09b310.svg';
+import Hero from "./Hero";
 const Home = () => {
   return (
     <>
@@ -67,7 +68,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+      <Hero/>
       <Footer />
     </>
   );

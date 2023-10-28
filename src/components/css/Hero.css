@@ -1,0 +1,157 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+    color: white;
+    border-top: 1px solid #4d4d4e;
+
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.hero-first{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.hero-first-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-first-desc-heding{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 1.4rem;
+    gap: 10px;
+}
+
+.hero-first-desc-para{
+    color: #cecece;
+    letter-spacing: 0px;
+    font-size: 1.1rem;
+}
+
+.hero-second{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.hero-second-heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.hero-second-card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+.hero-second-card-first{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #151515;
+    box-shadow: 0 0.7rem 0.8rem rgba(0,0,0,.2);
+    border: 1px solid hsla(0,0%,100%,.0784313725490196);
+}
+.hero-second-card-first-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    justify-content: center;
+    gap: 15px;
+}
+.zomi-head{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 1.6rem;
+    gap: 10px;
+}
+.zomi-logo img{
+    width: 40px;
+}
+.zomi-para{
+    font-size: 1.2rem;
+}
+.zomi-eth{
+    font-size: 1rem;
+    color: #cecece;
+}
+
+.zomi-button{
+    display: flex;
+    gap: 10px;
+}
+.zomi-buy button{
+    background-color: #3eb489;
+    border: 1px solid #3eb489;
+    width: 60px;
+    height: 35px;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.zomi-read button{
+    background-color: #151515;
+    border: 1px solid rgb(125, 125, 125);
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+
+
+@media only screen and (max-width: 1050px) {
+    .hero-second-card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-first{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .zomi-button{
+        display: flex;
+        flex-direction: column;
+    }
+    .zomi-buy button{
+        width: 100%;
+    }
+    .zomi-read button{
+        width: 100%;
+
+    }
+}
