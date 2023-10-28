@@ -66,3 +66,33 @@
 .footer-last-desc:hover{
     color: rgb(255, 255, 255);
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .footer{
+        height: 100%;
+    }
+    .footer-container{
+        display: flex;
+        gap: 20px;
+    }
+   .footer-brand{
+    font-size: 30px;
+   }
+    .social{
+        display: flex;
+        gap: 15px;
+    }
+    .social-icon{
+        font-size: 40px;
+    }
+    .footer-last{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
