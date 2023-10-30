@@ -231,7 +231,7 @@ const Dashboard = () => {
                         <div className="right-distribution">
                           
                           <div className="right-distribution-container">
-                          Distribution
+                          $ZLP Pool
                           </div>
                           </div>
                       </div>
