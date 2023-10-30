@@ -2,7 +2,9 @@ import React from "react";
 import Navbar from "./Navbar";
 import "./css/Dashboard.css";
 import Stats from "./Image/ic_avalanche_24.4f4088f4.svg";
-// import Footer from './Footer'
+import Footer from './Footer'
+import Romi from './Image/zomi.png'
+import Zlp from './Image/zlp.png'
 const Dashboard = () => {
   return (
     <>
@@ -113,6 +115,7 @@ const Dashboard = () => {
           </div>
           {/* stats ends here */}
 
+
           {/* Tokens starts here */}
           <div className="tokens">
             <div className="tokens-container">
@@ -126,7 +129,275 @@ const Dashboard = () => {
               </div>
               {/* Tokens heading ends*/}
               {/* Tokens card starts */}
-              <div className="stats-card">I a tokens card</div>
+              <div className="tokens-card">
+                <div className="tokens-card-container">
+
+                  <div className="token-card-first">
+                   <div className="token-card-first-container">
+
+                    <div className="distribution">
+                      <div className="distribution-container">
+                        <div className="left-distribution">
+                          <div className="left-distribution-container">
+
+                          <div className="left-distribution-first">
+                            <div className="left-distribution-first-container">
+                              <div className="romi-distribution-logo">
+                                <img src={Romi} alt="romi" />
+                              </div>
+                              <div className="romi-distibution">$ROMI</div>
+                            </div>
+                          </div>
+
+                          <div className="left-distribution-second">
+                            <div className="left-distribution-second-container">
+                              <div className="distribution-menu">
+                                <div className="distribution-menu-item">Price</div>
+                                <div className="distribution-menu-price">$0.00</div>
+                              </div>
+
+                              <div className="distribution-menu">
+                                <div className="distribution-menu-item">Supply</div>
+                                <div className="distribution-menu-price">10,000 $ZOMI</div>
+                              </div>
+
+                              <div className="distribution-menu">
+                                <div className="distribution-menu-item">Total Staked</div>
+                                <div className="distribution-menu-price">$0</div>
+                              </div>
+
+                              <div className="distribution-menu">
+                                <div className="distribution-menu-item">Market Cap</div>
+                                <div className="distribution-menu-price">$10</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                        <div className="right-distribution">
+                          
+                          <div className="right-distribution-container">
+                          Distribution
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+
+
+                    <div className="distribution">
+                      <div className="distribution-container">
+                        <div className="left-distribution">
+                          <div className="left-distribution-container">
+
+                          <div className="left-distribution-first">
+                            <div className="left-distribution-first-container">
+                              <div className="romi-distribution-logo">
+                                <img src={Zlp} alt="romi" />
+                              </div>
+                              <div className="romi-distibution">$ZLP</div>
+                            </div>
+                          </div>
+
+                          <div className="left-distribution-second">
+                            <div className="left-distribution-second-container">
+                              <div className="distribution-menu">
+                                <div className="distribution-menu-item">Price</div>
+                                <div className="distribution-menu-price">$1.138</div>
+                              </div>
+
+                              <div className="distribution-menu">
+                                <div className="distribution-menu-item">Supply</div>
+                                <div className="distribution-menu-price">29 $ZLP</div>
+                              </div>
+
+                              <div className="distribution-menu">
+                                <div className="distribution-menu-item">Total Staked</div>
+                                <div className="distribution-menu-price">$34</div>
+                              </div>
+
+                              <div className="distribution-menu">
+                                <div className="distribution-menu-item">Market Cap</div>
+                                <div className="distribution-menu-price">$34</div>
+                              </div>
+                              
+                              <div className="distribution-menu">
+                                <div className="distribution-menu-item">Stablecoin Percentage</div>
+                                <div className="distribution-menu-price">49.50%</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                        <div className="right-distribution">
+                          
+                          <div className="right-distribution-container">
+                          Distribution
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+                   </div>
+                  </div> 
+
+
+
+                  <div className="token-card-second">
+                    <div className="token-card-second-container">
+                      <div className="token-card-second-top">
+                        <div className="token-card-second-top-container">
+                       <div className="token-eth">
+                        <div className="token-eth-container">
+                          <div className="eth-first">
+                            <div className="eth-first-container">
+                              ETH
+                            </div>
+                          </div>
+
+                          <div className="eth-second">
+                            <div className="eth-second-container">
+                              <div className="eth-price">
+                                <div className="eth-price-left">Price</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Pool</div>
+                                <div className="eth-price-right">$19</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Weight</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Utilization</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                       <div className="token-eth">
+                        
+                       <div className="token-eth">
+                        <div className="token-eth-container">
+                          <div className="eth-first">
+                            <div className="eth-first-container">
+                              WBTC
+                            </div>
+                          </div>
+
+                          <div className="eth-second">
+                            <div className="eth-second-container">
+                              <div className="eth-price">
+                                <div className="eth-price-left">Price</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Pool</div>
+                                <div className="eth-price-right">$19</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Weight</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Utilization</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+
+
+                       </div>
+                       </div>
+                      </div>
+                      <div className="token-card-second-last">
+                      <div className="token-card-second-last-container">
+                        <div className="token-eth">
+                          
+                        <div className="token-eth">
+                        <div className="token-eth-container">
+                          <div className="eth-first">
+                            <div className="eth-first-container">
+                              APE
+                            </div>
+                          </div>
+
+                          <div className="eth-second">
+                            <div className="eth-second-container">
+                              <div className="eth-price">
+                                <div className="eth-price-left">Price</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Pool</div>
+                                <div className="eth-price-right">$19</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Weight</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Utilization</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+
+
+                        </div>
+                        <div className="token-eth">
+
+                        <div className="token-eth">
+                        <div className="token-eth-container">
+                          <div className="eth-first">
+                            <div className="eth-first-container">
+                              USDC
+                            </div>
+                          </div>
+
+                          <div className="eth-second">
+                            <div className="eth-second-container">
+                              <div className="eth-price">
+                                <div className="eth-price-left">Price</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Pool</div>
+                                <div className="eth-price-right">$19</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Weight</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              <div className="eth-price">
+                                <div className="eth-price-left">Utilization</div>
+                                <div className="eth-price-right">$1,829.11</div>
+                              </div>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+
+
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               {/* Tokens card ends */}
 
             </div>
@@ -135,7 +406,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 };

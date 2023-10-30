@@ -6,7 +6,7 @@
     height: 100%;
     background-color: #191919;
     color: white;
-    border-top: 1px solid;
+    border-top: 1px solid #4d4d4e;
 }
 .dashboard-container{
     display: flex;
@@ -15,7 +15,8 @@
     width: 80%;
     height: 100%;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     gap: 40px;
 }
 
@@ -74,7 +75,8 @@
     align-items: center;
     width: 100%;
     height: 200px;
-    border: 1px solid;
+    border: 1px solid #4d4d4e;
+    background-color: #151515;
     border-radius: 5px;
 }
 .stats-card-left-container{
@@ -97,7 +99,7 @@
     width: 95%;
 }
 .stats-left-overview-menu{
-    border-top: 1px solid;
+    border-top: 1px solid #4d4d4e;
     display: flex;
     justify-content: center;
 
@@ -121,7 +123,8 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    border: 1px solid;
+    border: 1px solid #4d4d4e;
+    background-color: #151515;
     border-radius: 5px;
 }
 .stats-card-right-container{
@@ -132,7 +135,9 @@
     height: 100%;
 
 }
-
+.overview-menu-items-left{
+    color: #b7b7bd;
+}
 /* stats ends here */
 
 
@@ -153,6 +158,7 @@
     width: 100%;
     height: 100%;
     flex-direction: column;
+    gap: 30px;
 }
 .tokens-heading{
     display: flex;
@@ -161,5 +167,274 @@
 .tokens-title{
     display: flex;
     gap: 10px;
+}
+
+/* Tokens card starts */
+.tokens-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.tokens-card-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+.token-card-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.token-card-first-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+
+}
+.distribution{
+    border: 1px solid #4d4d4e;
+    background-color: #151515;
+    width: 100%;
+    border-radius: 5px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.distribution-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.left-distribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.left-distribution-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+}
+.left-distribution-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.left-distribution-first-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    width: 95%;
+    gap: 10px;
+    border-bottom: 1px solid #4d4d4e;
+
+
+}
+
+
+.left-distribution-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5rem;
+}
+.left-distribution-second-container{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 95%;
+    flex-direction: column;
+    gap: 10px;
+}
+.distribution-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.romi-distribution-logo img{
+    width: 35px;
+}
+.distribution-menu-item{
+    color: #b7b7bd;
+}
+
+.right-distribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.right-distribution-container{
+    border: 10px solid rgb(6, 140, 224);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-distribution-container:hover{
+    border: 10px solid rgb(5, 152, 250);
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .distribution-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .distribution{
+        height: 450px;
+    }
+    .left-distribution-second{
+        margin-bottom: 1rem;
+    }
+}
+.pool{
+    border: 1px solid #4d4d4e;
+    background-color: #151515;
+    width: 100%;
+    border-radius: 5px;
+    height: 250px;
+}
+.token-card-second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+}
+.token-card-second-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+.token-card-second-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.token-card-second-top-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+.token-card-second-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.token-card-second-last-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+.token-eth{
+    border: 1px solid #4d4d4e;
+    background-color: #151515;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.token-eth-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.eth-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+.eth-first-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 95%;
+}
+.eth-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #4d4d4e;
+    
+
+}
+.eth-second-container{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 100%;
+    flex-direction: column;
+}
+.eth-price{
+    display: flex;
+    justify-content: space-between;
+
+}
+@media only screen and (max-width: 1050px) {
+    .token-card-first-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .token-card-second-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+
+.eth-price-left{
+
+    color: #b7b7bd;
 }
 /* Tokens ends here */

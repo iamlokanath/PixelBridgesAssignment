@@ -16,7 +16,7 @@ const Home = () => {
           <div className="home-head">
           <div className="home-heading">
 
-            Decentralized <br />Perpetual Exchange</div>
+            Decentralized<br />Perpetual Exchange</div>
           <div className="home-heading-para">Trade BTC, ETH, AVAX and other top <br /> cryptocurrencies with up to 30x leverage <br /> directly from your wallet</div>
           <div className="home-button"><button>Launch Exchange</button></div>
           </div>
