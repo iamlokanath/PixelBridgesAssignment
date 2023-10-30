@@ -171,4 +171,96 @@ h2{
         display: flex;
         flex-direction: column;
     }
+
+    .earn{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+.earn-left-second{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* width: 100%; */
+    /* height: 100%; */
+
+
+}
+.earn-left-first{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+.earn-right-first{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+.earn-right-second{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+
+}
+.earn-left-second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    width: 100%;
+    /* margin-left: 1rem; */
+}
+/* .ethereum-second-container{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+} */
+.ethereum-first{
+    margin-left: 1rem;
+}
+.ethereum-price{
+    margin-left: 1rem;
+}
+.ethereum-price-right{
+    margin-right: 1rem;
+
+}
+.ethereum-second-container-items{
+    display: flex;
+    justify-content: space-between;
+}
+.etereum-third-container-items{
+    display: flex;
+    justify-content: space-between;
+
+}
+.etereum-fourth-container-items{
+    display: flex;
+    justify-content: space-between;
+}
+.ethereum-price{
+    color: #b7b7bd;
+    /* margin-bottom: 1rem; */
+}
+.ethereum-fifth{
+    margin-left: 1rem;
+}
+
+.ethereum-fifth-container{
+    display: flex;
+    gap: 10px;
+}
+.ethereum-fifth-button button{
+    width: 100px;
+    height: 40px;
+    background-color: #3eb489;
+    border: 1px solid #3eb489;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
 }
