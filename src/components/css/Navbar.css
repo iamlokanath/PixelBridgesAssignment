@@ -6,7 +6,6 @@
     align-items: center;
     text-align: center;
     background-color: #191919;
-    color: aliceblue;
     border-bottom: #1E1E1E;
     box-sizing: border-box;
     box-shadow: #1E1E1E;
@@ -19,12 +18,15 @@
     align-items: center;
     text-align: center;
 }
-
+.active{
+    color: white;
+}
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    color: aliceblue;
     font-family: "Relative",sans-serif;
 }
 .logo-image img{
@@ -54,9 +56,6 @@
     color: white;
 }
 
-/* .active{
-    color: #5f99be;
-} */
 .nav-right{
     display: flex;
     gap: 25px;
