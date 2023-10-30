@@ -158,7 +158,7 @@ const Dashboard = () => {
 
                               <div className="distribution-menu">
                                 <div className="distribution-menu-item">Supply</div>
-                                <div className="distribution-menu-price">10,000 $ZOMI</div>
+                                <div className="distribution-menu-price">10,000 $ROMI</div>
                               </div>
 
                               <div className="distribution-menu">

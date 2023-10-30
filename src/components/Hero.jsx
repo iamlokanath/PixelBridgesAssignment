@@ -37,7 +37,7 @@ const Hero = () => {
                     <img src={Save} alt="Reduce Liquidation Risks" />
                   </div>
                   <div className="hero-first-desc-heding-name">
-                    Reduce Liquidation Risks
+                  Save on Costs
                   </div>
                 </div>
                 <div className="hero-first-desc-para">
@@ -56,7 +56,7 @@ const Hero = () => {
                     <img src={Simple} alt="Reduce Liquidation Risks" />
                   </div>
                   <div className="hero-first-desc-heding-name">
-                    Reduce Liquidation Risks
+                  Simple Swaps
                   </div>
                 </div>
                 <div className="hero-first-desc-para">
@@ -82,11 +82,11 @@ const Hero = () => {
                     <div className="zomi-logo">
                       <img src={Zomi} alt="ZOMI" />
                     </div>
-                    <div className="zomi-name">$ZOMI</div>
+                    <div className="zomi-name">$ROMI</div>
                   </div>
 
                   <div className="zomi-para">
-                    $ZOMI is the utility and governance token. Accrues 30% of
+                    $ROMI is the utility and governance token. Accrues 30% of
                     the
                     <br /> platform's generated fees.
                   </div>
@@ -113,7 +113,7 @@ const Hero = () => {
                     <div className="zomi-logo">
                       <img src={Zlp} alt="ZOMI" />
                     </div>
-                    <div className="zomi-name">$ZOMI</div>
+                    <div className="zomi-name">$ROMI</div>
                   </div>
 
                   <div className="zomi-para">
