@@ -22,16 +22,16 @@ const Navbar = () => {
           <div className="nav-mid">
             <ul>
               <li>
-                <NavLink className="nav-items" to="/">Home</NavLink>
+                <NavLink className="nav-items-main" to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink className="nav-items" to="/dashboard">Dashboard</NavLink>
+                <NavLink className="nav-items-main" to="/dashboard">Dashboard</NavLink>
               </li>
               <li>
                 <NavLink className="nav-items" to="/nft">NFT</NavLink>
               </li>
               <li>
-                <NavLink className="nav-items" to="/earn">Earn</NavLink>
+                <NavLink className="nav-items-main" to="/earn">Earn</NavLink>
               </li>
               <li>
                 <NavLink className="nav-items" to="/buy">Buy</NavLink>

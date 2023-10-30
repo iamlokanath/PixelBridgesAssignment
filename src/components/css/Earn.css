@@ -26,6 +26,7 @@
     gap: 10px;
     height: 100%;
 }
+
 .earn-left{
     display: flex;
     flex-direction: column;
